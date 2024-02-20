@@ -3,19 +3,23 @@ Implemented AES 128 bits Block Cipher in Python from scratch. In which key is ha
 
 ## Object of AES Class
 Initially make an object instance of AES Class, to start with AES.
+
     Object = AES() 
 
 ## Encryption
 To encrypt any string first make the object then encode the string you want to encrypt then call the encryption function to encrypt.
+
     Object.encode("string")
     Object.encryption()
 
-To view the encrypted text or the Cipher Text
+To view the encrypted text or the Cipher Text.
+
     CipherText = Object.cypher()
     print(CipherText)
 
 ## Decryption
 To decrypt the cipher text with the AES 128 Bits Block Cipher instance Object call the decryption function
+
     DecryptedText = Object.decrypt("CipherText")
     print(DecryptedText)
 
