@@ -264,7 +264,7 @@ class AES:
         return "Wrong"
     
 a = AES()       # Key is hardcoded can be changed in the class AES 
-a.encode("My name is Anmol Gupta") # encode the string to encrypt with the AES
+a.encode("My name is Mr. Nobody") # encode the string to encrypt with the AES
 a.encryption()
 cipher = a.cipher()
 print(cipher)
