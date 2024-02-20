@@ -6,7 +6,7 @@ Initially make an object instance of AES Class, to start with AES.
     Object = AES() 
 
 ## Encryption
-To encrypt any string first make the object then encode the string you want to encrypt then call the encryption function to encrypt
+To encrypt any string first make the object then encode the string you want to encrypt then call the encryption function to encrypt.
     Object.encode("string")
     Object.encryption()
 
