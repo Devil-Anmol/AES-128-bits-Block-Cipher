@@ -26,6 +26,7 @@ To decrypt the cipher text with the AES 128 Bits Block Cipher instance Object ca
 ## Implementation of AES-128 Bits Block Cipher
 To implement the AES Block Cipher from scratch, I used python language. Proper encapsulation and abstraction is ensured in the code (AES Class). 10 rounds of encryption is done in the code.
 Following Functions are declared for the encryption and decryption in the code:
+
 *Substitute Box*
 *Rotate Rows*
 *Mix Columns*
