@@ -1,4 +1,4 @@
-# AES-128-bits-Block-Cipher
+# AES-128-bits Block-Cipher
 Implemented AES 128 bits Block Cipher in Python from scratch. In which key is hardcoded in hex string 32 characters. Support all type of strings.
 
 ## Object of AES Class
