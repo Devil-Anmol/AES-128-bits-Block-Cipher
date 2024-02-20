@@ -1,5 +1,5 @@
 # AES-128-bits Block-Cipher
-Implemented AES 128 bits Block Cipher in Python from scratch. In which key is hardcoded in hex string 32 characters. Support all type of strings.
+Implemented AES 128 bits Block Cipher in Python from scratch. In which key is hardcoded in hex string 32 characters. Support all types of strings.
 
 ## Object of AES Class
 Initially make an object instance of AES Class, to start with AES.
@@ -38,7 +38,7 @@ Following Functions are declared for the encryption and decryption in the code:
 *Key Expansion*
 
 ### Substitute Box
-AES S-box and Inv S-box is defined in the AES class code for substitute bytes function. This function substitute the the bytes of the start of round relative to the AES S-box and AES Inv S-box in encryption and decryption respectively.
+AES S-box and Inv S-box is defined in the AES class code for substitute bytes function. This function substitutes the bytes of the start of round relative to the AES S-box and AES Inv S-box in encryption and decryption respectively.
 
 ### Rotate Rows
 This function rotates the rows by the fixed number [0,1,2,3] in left and right direction accordingly to encryption and decryption respectively.
@@ -50,4 +50,4 @@ This function uses initially defined Mix Column Matrix and Inv Mix Column Matrix
 This function XOR the 4 words of the key with the result after the Mix Column.
 
 ### Key Expansion
-This function processes with the creation of the Object instance. It uses Rotate Rows and Substitute Box function for the expansion of 4 words key to 44 words key. And group of 4 keys are used in each round.
+This function processes with the creation of the Object instance. It uses the Rotate Rows and Substitute Box function for the expansion of 4 words key to 44 words key. And group of 4 keys are used in each round.
