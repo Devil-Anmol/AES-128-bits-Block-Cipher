@@ -28,9 +28,13 @@ To implement the AES Block Cipher from scratch, I used python language. Proper e
 Following Functions are declared for the encryption and decryption in the code:
 
 *Substitute Box*
+
 *Rotate Rows*
+
 *Mix Columns*
+
 *Add Round Key*
+
 *Key Expansion*
 
 ### Substitute Box
