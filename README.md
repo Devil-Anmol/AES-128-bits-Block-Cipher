@@ -20,7 +20,7 @@ To view the encrypted text or the Cipher Text.
 ## Decryption
 To decrypt the cipher text with the AES 128 Bits Block Cipher instance Object call the decryption function
 
-    DecryptedText = Object.decrypt("CipherText")
+    DecryptedText = Object.decrypt(CipherText)
     print(DecryptedText)
 
 ## Implementation of AES-128 Bits Block Cipher
